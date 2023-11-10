@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="vendors/js/jquery-3.7.0.min"></script>
+  <script src="vendors/jquary-whatsapp/venom-button.min.js"></script>
+  <script src="vendors/jquary-whatsapp/venom-button.min.js"></script>
+  <link rel="stylesheet" href="vendors/jquary-whatsapp/venom-button.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+
+  
+    rel="stylesheet">
+  <title>Bull Burger</title>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg p-3 w-100 fixed-top" id="nav-home">
+      <div class="container">
+        <a class="logo" href="index.html" data-aos="fade-left" data-aos-delay="900"><img src="img/logo.png" alt=""
+            id="logo"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-1 text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navegacion">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link  text-light px-3" data-aos="fade-left" data-aos-delay="1000" aria-current="page"
+                href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-light px-3" data-aos="fade-left" data-aos-delay="1100" aria-current="page"
+                href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" data-aos="fade-left" data-aos-delay="1200"
+                href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" data-aos="fade-left" data-aos-delay="1300"
+                href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3 final" data-aos="fade-left" data-aos-delay="1400"
+                href="preguntas.html">Preguntas frecuentes</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+
+
+
+
+  <main class="container-fluid fondo" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1500">
+    <div class="container-fluid ps-5">
+      <div class="row d-flex">
+
+        <div class="col-12 col-md-6 col-sm-12">
+          <h1 class="display-4 text-start" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="500">Panza llena,
+            corazón contento.</h1>
+          <p class="text-start pe-5" data-aos="fade-up" data-aos-delay="1900" data-aos-duration="1000">Por eso, todas
+            nuestras burgers están hechas con carne premium de novillo, sin aditivos ni conservantes y en pan artesanal
+            de papa.</p>
+          <div class="col d-flex justify-content-start" data-aos="fade-up" data-aos-delay="2200"
+            data-aos-duration="1500">
+
+            <button type="submit" class="btn  boton_1 rounded-1 p-3"> <a class="nav-link" href="productos.html">Conocer
+                más</a></button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <section class="fondo">
+    <div class="container pb-5">
+      <div class="row">
+        <h2 class="pt-5 text-center">Nuestras hamburguesas según la ocasión</h2>
+
+        <ul class="nav nav-pills mb-5 pt-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Cheeseburger</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ranchera</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Mata arteria</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+              type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Veggie</button>
+          </li>
+        </ul>
+
+        <div class="tab-content pb-5" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-sm-12">
+                  <h2>Cheeseburguer</h2>
+                  <p class="pe-5">Preparada con pasión y servida con cariño, la Cheeseburger es mucho más que una simple
+                    hamburguesa. Es un símbolo de placer y deleite, una experiencia que nunca olvidarás. ¿Estás listo
+                    para embarcarte en un viaje inolvidable hacia la perfección gastronómica?</p>
+                  <p><i class="bi bi-check-all text-success"></i> Pan de papa</p>
+                  <p><i class="bi bi-check-all text-success"></i> Lechuga</p>
+                  <p><i class="bi bi-check-all text-success"></i> Medallón de 120gr</p>
+                  <p><i class="bi bi-check-all text-success"></i> Lámina de queso cheddar</p>
+                  <p><i class="bi bi-check-all text-success"></i> Inyección de queso cheddar fundido</p>
+                  <p><i class="bi bi-check-all text-success"></i> Salsa especial de la casa</p>
+                </div>
+                <div class="col-12 col-md-6 col-sm-12">
+                  <img src="img/cheeseburger.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+            tabindex="0">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-sm-12">
+                  <h2>Ranchera</h2>
+                  <p class="pe-5">Conoce la hamburguesa Ranchera. Esta hamburguesa te transportará a un mundo de sabor y
+                    satisfacción. ¿Estás preparado para deleitar tus sentidos con la hamburguesa Ranchera? ¡Es hora de
+                    disfrutar!</p>
+                  <p><i class="bi bi-check-all text-success"></i> Pan de papa</p>
+                  <p><i class="bi bi-check-all text-success"></i> Mucho beacon</p>
+                  <p><i class="bi bi-check-all text-success"></i> Láminas y láminas de cheddar fundido</p>
+                  <p><i class="bi bi-check-all text-success"></i> Irresistible salsa casera</p>
+                </div>
+                <div class="col-12 col-md-6 col-sm-12">
+                  <img src="img/ranchera.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-sm-12">
+                  <h2>Mata arteria</h2>
+                  <p class="pe-5">Prepárate para un desafío culinario intenso con la hamburguesa Mata Arteria. Una obra
+                    maestra que contiene los mejores ingredientes. ¿Estás dispuesto a enfrentar el sabor audaz y
+                    dominante de la Mata Arteria? Solo los valientes se atreven a probarla. ¿Estás listo para el
+                    desafío?</p>
+                  <p><i class="bi bi-check-all text-success"></i> Pan de papa con queso parmesano</p>
+                  <p><i class="bi bi-check-all text-success"></i> Triple medallon de 120gr</p>
+                  <p><i class="bi bi-check-all text-success"></i> Cuádruple lámina de queso chedda fundido</p>
+                  <p><i class="bi bi-check-all text-success"></i> Mucho beacon</p>
+                  <p><i class="bi bi-check-all text-success"></i> Rodajas de pepinos frescos</p>
+                  <p><i class="bi bi-check-all text-success"></i> Un toque de salsa picante especial</p>
+                </div>
+                <div class="col-12 col-md-6 col-sm-12">
+                  <img src="img/mataarteria.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+            tabindex="0">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-sm-12">
+                  <h2>Veggie</h2>
+                  <p class="pe-5">La hamburguesa Veggie es la elección perfecta para los amantes de la comida
+                    vegetariana que no quieren comprometer el sabor. ¿Listo para probar algo nuevo y delicioso? ¡No te
+                    arrepentirás!</p>
+                  <p><i class="bi bi-check-all text-success"></i> Pan de zanahoria</p>
+                  <p><i class="bi bi-check-all text-success"></i> Medallón de quinoa</p>
+                  <p><i class="bi bi-check-all text-success"></i> Lechuga y tomate fresco</p>
+                  <p><i class="bi bi-check-all text-success"></i> Lamina de queso cheddar</p>
+                </div>
+                <div class="col-12 col-md-6 col-sm-12">
+                  <img src="img/veggie.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 testimonios">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="text-center">
+          <h2>¿Qué dicen nuestros clientes?</h2>
+          <p class="pb-3">Estas opiniones nos ayudan a crecer cada día más.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 p-2">
+          <div class="card border-0">
+            <img src="img/testimonio1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="mb-2 fw-bold">Mariano H. <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+              </p>
+              <p class="card-text">¡Es clave ir los domingos para cerrar
+                la semana de la mejor manera!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-2">
+          <div class="card border-0">
+            <img src="img/testimonio2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="mb-2 fw-bold">Fernanda T. <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+              </p>
+              <p class="card-text pb-4">La carne es excelente y la atención
+                de los chicos es un diez. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-2">
+          <div class="card border-0">
+            <img src="img/testimonio3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="mb-2 fw-bold">Nicolas O. <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+              </p>
+              <p class="card-text">Por lejos la mejores burgas, nadie le
+                llega ni a los talones. Genios totales!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 p-2">
+          <div class="card border-0">
+            <img src="img/testimonio4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="mb-2 fw-bold">Josefina A. <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i> <i
+                  class="bi bi-star-fill text-warning"></i> <i class="bi bi-star-fill text-warning"></i>
+              </p>
+              <p class="card-text pb-4">La combinación ideal, buena onda, comida y precios. Fiel a Devil!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 fondo">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-sm-12 p-4">
+          <h2>Porqué elegirnos</h2>
+          <p>Las mejores hamburguesas, para que disfrutes al máximo</p>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Productos frescos
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>En primer lugar, <strong>nos enorgullece utilizar los ingredientes más frescos y de la más alta
+                      calidad en cada una de nuestras hamburguesas.</strong> Nuestro compromiso con la excelencia se
+                    refleja en cada bocado que tomas. Desde las jugosas y sabrosas carnes que seleccionamos
+                    cuidadosamente hasta los frescos y crujientes vegetales que adornan nuestros panes recién horneados,
+                    cada elemento se elige con sumo cuidado para ofrecerte la mejor experiencia gastronómica. </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Nuestro servicio
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>No solo se trata de nuestras hamburguesas excepcionales, también nos preocupamos por brindar un
+                    servicio impecable.<strong> Nuestro amable y atento personal está comprometido en hacer de tu visita
+                      una experiencia placentera y memorable</strong>. Desde el momento en que cruzas nuestras puertas,
+                    te recibiremos con una sonrisa cálida y te atenderemos con cortesía y profesionalismo. Tu
+                    satisfacción es nuestra máxima prioridad, y haremos todo lo posible para asegurarnos de que te
+                    sientas bienvenido y cuidado durante tu visita. </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Combo completo
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>En resumen, elegir nuestra hamburguesería como tu destino culinario es una decisión que no te
+                    arrepentirás. Nuestros ingredientes de calidad, nuestra variedad de opciones, nuestro servicio
+                    excepcional y nuestro ambiente acogedor se unen para crear una experiencia única. <strong>Ven y
+                      descubre por qué somos reconocidos como la mejor hamburguesería de la ciudad.</strong> ¡Te
+                    esperamos con los brazos abiertos y una hamburguesa extraordinaria lista para ser disfrutada!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-sm-12 p-4">
+          <div>
+            <img src="img/elegirnos.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="p-5 fondonewsletter">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-sm-12 p-4">
+          <h2 class="text-light">¡Suscribite a nuestro newsletter!</h2>
+          <p class="text-light">Obtén novedades, descuentos y mucho más</p>
+        </div>
+        <div class="col-12 col-md-6 col-sm-12 p-4">
+          <form class="d-flex" role="email">
+            <input class="form-control me-2 news" type="email" placeholder="Email" aria-label="Email" width="70%">
+            <button type="submit" class="btn  boton_3 rounded-1 p-3">Enviar</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <div class="whatsapp"></div>
+  <script>
+      'use strict';
+
+      $(document).ready(function () {
+
+          $('.whatsapp').venomButton({
+              phone: '1162851093',
+              chatMessage: 'Chat Window Title',
+              message: "¡Hola Bull Burger! Tengo una consulta.",
+              nameClient: "jQuery Script",
+              showPopup: true,
+              position: "right",
+          });
+      });
+  </script>
+
+
+
+  <footer class="bg-dark text-secondary text-center pt-4 pb-2">
+    <div class="col-12">
+      <p>Copyright © 2023 - By Doynel Marcelo</p>
+    </div>
+    <div class="p-3">
+      <a href="https://www.facebook.com" target="_blank" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com" target="_blank" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+      <a href="www.youtube.com" target="_blank" class="text-light me-2"><i class="bi bi-youtube"></i></a>
+      <a href="www.linkedin.com" target="_blank" class="text-light me-2"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
